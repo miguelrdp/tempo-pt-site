@@ -3,12 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tempo PT — Meteorologia para Portugal, com dados do IPMA</title>
-  <meta name="description" content="App de meteorologia grátis para Portugal: previsão oficial do IPMA, avisos, radar, risco de incêndio, fogos ativos via fogos.pt e histórico de temperaturas comparado com a normal climática.">
+  <title>Tempo PT: Meteorologia — app do tempo grátis com dados do IPMA</title>
+  <meta name="description" content="App de meteorologia grátis para iPhone, feita para Portugal: previsão do IPMA por concelho, avisos, radar, chuva medida, risco de incêndio, fogos ativos via fogos.pt e histórico de temperaturas. Sem anúncios.">
+  <link rel="canonical" href="https://miguelrdp.github.io/tempo-pt-site/">
   <meta name="apple-itunes-app" content="app-id=6797918166">
-  <meta property="og:title" content="Tempo PT">
-  <meta property="og:description" content="Meteorologia para Portugal com dados do IPMA. Grátis e sem anúncios.">
-  <meta property="og:image" content="img/1-agora.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:site_name" content="Tempo PT">
+  <meta property="og:url" content="https://miguelrdp.github.io/tempo-pt-site/">
+  <meta property="og:title" content="Tempo PT: Meteorologia — o tempo em Portugal com dados do IPMA">
+  <meta property="og:description" content="Previsão do IPMA, avisos, radar, chuva medida, fogos ativos e histórico de temperaturas. Grátis e sem anúncios.">
+  <meta property="og:image" content="https://miguelrdp.github.io/tempo-pt-site/img/1-agora.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Tempo PT: Meteorologia",
+    "operatingSystem": "iOS",
+    "applicationCategory": "WeatherApplication",
+    "inLanguage": "pt-PT",
+    "description": "App de meteorologia para Portugal com dados abertos do IPMA: previsão por concelho, avisos, radar, chuva medida, risco de incêndio, fogos ativos via fogos.pt e histórico de temperaturas.",
+    "url": "https://miguelrdp.github.io/tempo-pt-site/",
+    "downloadUrl": "https://apps.apple.com/pt/app/tempo-pt/id6797918166",
+    "image": "https://miguelrdp.github.io/tempo-pt-site/img/icon.png",
+    "screenshot": ["https://miguelrdp.github.io/tempo-pt-site/img/1-agora.jpg", "https://miguelrdp.github.io/tempo-pt-site/img/5-fogos.jpg", "https://miguelrdp.github.io/tempo-pt-site/img/4-historico.jpg"],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "publisher": { "@type": "Organization", "name": "Bright Waves Lda" }
+  }
+  </script>
   <link rel="icon" href="img/icon.png">
   <link rel="apple-touch-icon" href="img/icon.png">
   <link rel="stylesheet" href="style.css">
@@ -53,6 +76,11 @@
           <p>Dados abertos do Instituto Português do Mar e da Atmosfera, para o seu concelho: hora a hora e para 10 dias.</p>
         </div>
         <div class="card">
+          <span class="tag">Chuva</span>
+          <h3>Chuva medida</h3>
+          <p>Quanto choveu de facto nas últimas 24 horas, na estação do IPMA mais próxima — não só a probabilidade de chover.</p>
+        </div>
+        <div class="card">
           <span class="tag">Avisos</span>
           <h3>Avisos meteorológicos</h3>
           <p>Amarelo, laranja e vermelho, com as cores e os níveis oficiais do IPMA para a sua região.</p>
@@ -78,6 +106,18 @@
           <p>Estado do mar, temperatura da água, marés e índice UV. E widgets para o ecrã principal.</p>
         </div>
       </div>
+    </section>
+
+    <section class="prose">
+      <h2>Perguntas frequentes</h2>
+      <h3>Qual é a melhor app do tempo para Portugal?</h3>
+      <p>O Tempo PT foi feito especificamente para Portugal: usa a previsão oficial do IPMA para cada concelho, mostra os avisos meteorológicos e o risco de incêndio do IPMA, e cobre o continente, os Açores e a Madeira.</p>
+      <h3>A app usa os dados do IPMA?</h3>
+      <p>Sim. A previsão, os avisos, o risco de incêndio e a chuva medida vêm da API de dados abertos do IPMA. O Tempo PT é uma app independente, não é a app oficial do IPMA.</p>
+      <h3>Mostra os incêndios ativos?</h3>
+      <p>Sim. As ocorrências ativas vêm do fogos.pt, com os meios no terreno e a distância ao seu concelho, ao lado do risco de incêndio do IPMA para os próximos dias.</p>
+      <h3>Quanto custa?</h3>
+      <p>Nada. Não tem anúncios, subscrições, compras dentro da app nem registo.</p>
     </section>
 
     <footer>

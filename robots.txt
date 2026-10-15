@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miguelrdp.github.io/tempo-pt-site/sitemap.xml
